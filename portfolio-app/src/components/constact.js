@@ -1,5 +1,12 @@
 import React, { Component } from "react";
-import { Grid, Cell } from "react-mdl";
+import {
+    Grid,
+    Cell,
+    List,
+    ListItem,
+    ListItemAction,
+    ListItemContent,
+} from "react-mdl";
 
 class Contact extends Component {
     render() {
@@ -8,11 +15,13 @@ class Contact extends Component {
                 <Grid className="contact-grid">
                     <Cell col={6}>
                         <h2>Mikhail Mednikh</h2>
+                        <hr />
                         <img
                             src="https://i.pinimg.com/originals/ea/81/16/ea811652ed52d2f3035d267f5ee8395b.png"
                             alt="avatar"
                             style={{ height: "250px" }}
                         />
+                        <hr />
                         <p
                             style={{
                                 width: "75%",
@@ -28,6 +37,52 @@ class Contact extends Component {
                     <Cell col={6}>
                         <h2>Contact Me</h2>
                         <hr />
+                        <div className="container-list">
+                            <List>
+                                <ListItem>
+                                    <ListItemContent
+                                        style={{
+                                            fontSize: "30px",
+                                            fontFamily: "Anton",
+                                        }}
+                                    >
+                                        <i
+                                            className="fa fa-phone-square"
+                                            aria-hidden="true"
+                                        />
+                                        + 1 (347) 000-0000
+                                    </ListItemContent>
+                                </ListItem>
+                                <ListItem>
+                                    <ListItemContent
+                                        style={{
+                                            fontSize: "30px",
+                                            fontFamily: "Anton",
+                                        }}
+                                    >
+                                        <i
+                                            className="fa fa-envelope"
+                                            aria-hidden="true"
+                                        />
+                                        Loren.email@gmail.com
+                                    </ListItemContent>
+                                </ListItem>
+                                <ListItem>
+                                    <ListItemContent
+                                        style={{
+                                            fontSize: "30px",
+                                            fontFamily: "Anton",
+                                        }}
+                                    >
+                                        <i
+                                            className="fa fa-skype"
+                                            aria-hidden="true"
+                                        />
+                                        MySkypeID#####
+                                    </ListItemContent>
+                                </ListItem>
+                            </List>
+                        </div>
                     </Cell>
                 </Grid>
             </div>

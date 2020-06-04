@@ -28,9 +28,7 @@ class Projects extends Component {
                             background:
                                 "url(https://camo.githubusercontent.com/0cd910e76658429374539a8d72a0608783918aae/68747470733a2f2f7261776769742e636f6d2f676f72616e67616a69632f72656163742d69636f6e732f6d61737465722f72656163742d69636f6e732e737667) center / cover",
                         }}
-                    >
-                        React project #1
-                    </CardTitle>
+                    ></CardTitle>
                     <CardText>First React project</CardText>
                     <CardActions border>
                         <Button colored>GitHub</Button>
@@ -50,9 +48,7 @@ class Projects extends Component {
                             background:
                                 "url(https://cdn3.iconfinder.com/data/icons/logos-3/250/angular-512.png) center / cover",
                         }}
-                    >
-                        Angular project #1
-                    </CardTitle>
+                    ></CardTitle>
                     <CardText>First Angular project</CardText>
                     <CardActions border>
                         <Button colored>GitHub</Button>
@@ -72,9 +68,7 @@ class Projects extends Component {
                             background:
                                 "url(https://cdn0.iconfinder.com/data/icons/designer-skills/128/node-js-512.png) center / cover",
                         }}
-                    >
-                        NodeJS project #1
-                    </CardTitle>
+                    ></CardTitle>
                     <CardText>First NodeJS project</CardText>
                     <CardActions border>
                         <Button colored>GitHub</Button>
@@ -94,9 +88,7 @@ class Projects extends Component {
                             background:
                                 "url(https://user-images.githubusercontent.com/11978772/40430921-73d53922-5e63-11e8-8dcd-1662136c3212.png) center / cover",
                         }}
-                    >
-                        MongoDB project #1
-                    </CardTitle>
+                    ></CardTitle>
                     <CardText>First MongoDB project</CardText>
                     <CardActions border>
                         <Button colored>GitHub</Button>
