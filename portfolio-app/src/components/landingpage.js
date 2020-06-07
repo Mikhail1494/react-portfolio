@@ -7,7 +7,7 @@ class Landing extends Component {
                 <Grid className="landing-grid">
                     <Cell col={12}>
                         <img
-                            src="https://lh3.googleusercontent.com/proxy/R79n411lR3t72qa1bRg-a_IgJoep_0jdbtM-G5acj5I9M2seC9Tl3YzRY-oNde2VXsrQeVJByOeb2_BGiNCTZp4imVgcfUw"
+                            src="https://juststickers.in/wp-content/uploads/2017/11/ninja-coder-badge.png"
                             alt="avatar"
                             className="avatar-img"
                         />
@@ -15,7 +15,7 @@ class Landing extends Component {
                             <h1>Web Developer </h1>
                             <hr />
                             <p>
-                                HTML/CSS | Bootsrap | JavaScript | React |
+                                HTML / CSS | Bootsrap | JavaScript | React |
                                 NodeJS | MySQL | MongoDB
                             </p>
                             <div className="social-links">

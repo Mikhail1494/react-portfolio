@@ -1,5 +1,6 @@
 import React from "react";
 import "./App.css";
+import "./resume.css";
 import Main from "./components/main";
 import { Layout, Header, Navigation, Drawer, Content } from "react-mdl";
 import { Link } from "react-router-dom";
@@ -9,15 +10,40 @@ function App() {
             <Layout>
                 <Header
                     className="header-color"
-                    title="My Portfolio"
+                    title={
+                        <Link
+                            style={{ textDecoration: "none", color: "white" }}
+                            to="/"
+                        >
+                            My Portfolio
+                        </Link>
+                    }
                     scroll
                 ></Header>
-                <Drawer title="List">
+                <Drawer
+                    style={{ background: "#00a8ff" }}
+                    title={
+                        <Link
+                            style={{ textDecoration: "none", color: "black" }}
+                            to="/"
+                        >
+                            My Portfolio
+                        </Link>
+                    }
+                >
                     <Navigation>
-                        <Link to="/resume">My Resume</Link>
-                        <Link to="/aboutme">About Me</Link>
-                        <Link to="/projects">Projects</Link>
-                        <Link to="/contact">Contact</Link>
+                        <Link style={{ color: "black" }} to="/resume">
+                            My Resume
+                        </Link>
+                        <Link style={{ color: "black" }} to="/aboutme">
+                            About Me
+                        </Link>
+                        <Link style={{ color: "black" }} to="/projects">
+                            Projects
+                        </Link>
+                        <Link style={{ color: "black" }} to="/contact">
+                            Contact
+                        </Link>
                     </Navigation>
                 </Drawer>
                 <Content>
