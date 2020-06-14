@@ -4,6 +4,7 @@ import Education from "./education";
 import Experience from "./experience";
 import Skills from "./skills";
 import Columbia from "./columbia";
+import intro from "./intro.png";
 
 class Resume extends Component {
     render() {
@@ -11,11 +12,11 @@ class Resume extends Component {
             <div>
                 <Grid>
                     <Cell className="resume-left-col" col={4}>
-                        <div style={{ textAlign: "center" }}>
+                        <div>
                             <img
-                                src="https://i.pinimg.com/originals/ea/81/16/ea811652ed52d2f3035d267f5ee8395b.png"
-                                alt="avatar"
-                                style={{ height: "200px" }}
+                                src={intro}
+                                alt="intro"
+                                style={{ height: "150px" }}
                             />
                         </div>
                         <h2 style={{ paddingTop: "2em" }}> Mikhail Mednikh </h2>
@@ -27,18 +28,16 @@ class Resume extends Component {
                             }}
                         />
                         <p>
-                            Lorem Ipsum is simply dummy text of the printing and
-                            typesetting industry. Lorem Ipsum has been the
-                            industry's standard dummy text ever since the 1500s,
-                            when an unknown printer took a galley of type and
-                            scrambled it to make a type specimen book. It has
-                            survived not only five centuries, but also the leap
-                            into electronic typesetting, remaining essentially
-                            unchanged. It was popularised in the 1960s with the
-                            release of Letraset sheets containing Lorem Ipsum
-                            passages, and more recently with desktop publishing
-                            software like Aldus PageMaker including versions of
-                            Lorem Ipsum.
+                            My favorite pastime is disassembling, repairing and
+                            assembling something from electrical engineering.
+                            Also, I found myself in coding. I have something to
+                            do with my own hands. In coding, I like part of the
+                            design more, but this is not the limit. I would like
+                            to learn a lot more. In the future I hope to improve
+                            my coding skills and reach new heights.By the way,
+                            I'm still a little fond of photoshop and the picture
+                            above is made by me personally in Adobe Photoshop
+                            2019 CC
                         </p>
                         <hr
                             style={{
@@ -93,11 +92,11 @@ class Resume extends Component {
                         />
                         <hr style={{ borderTop: "3px solid #e22947" }} />
                         <h2>Columbia Engineering</h2>
-                        <p>Coding Boot Camp</p>
+                        <p>Coding Boot Camp full stack developer</p>
                         <Columbia
                             startDayMonthYear="03/15/2020"
                             endDayMonthYear="06/16/2020"
-                            colledgeName="Columbia Engineering Coding Boot Camp"
+                            colledgeName="Columbia Engineering Coding Boot Camp full stack developer "
                             coursesDescription="Computer Science applied to JavaScript /
                             Databases (MySQL, MongoDB)
                             Server Side Development (Node.js, Express, MERN Stack) /

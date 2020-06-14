@@ -7,6 +7,8 @@ import {
     ListItemAction,
     ListItemContent,
 } from "react-mdl";
+import "./Contact.css";
+import intro from "./intro.png";
 
 class Contact extends Component {
     render() {
@@ -17,9 +19,9 @@ class Contact extends Component {
                         <h2>Mikhail Mednikh</h2>
                         <hr />
                         <img
-                            src="https://i.pinimg.com/originals/ea/81/16/ea811652ed52d2f3035d267f5ee8395b.png"
-                            alt="avatar"
-                            style={{ height: "250px" }}
+                            src={intro}
+                            alt="intro"
+                            style={{ height: "150px" }}
                         />
                         <hr />
                         <p
@@ -42,10 +44,11 @@ class Contact extends Component {
                                 <ListItem>
                                     <ListItemContent
                                         style={{
-                                            fontSize: "30px",
+                                            fontSize: "20px",
                                             fontFamily: "Anton",
                                         }}
                                     >
+                                        <hr />
                                         <i
                                             className="fa fa-phone-square"
                                             aria-hidden="true"
@@ -56,10 +59,11 @@ class Contact extends Component {
                                 <ListItem>
                                     <ListItemContent
                                         style={{
-                                            fontSize: "30px",
+                                            fontSize: "20px",
                                             fontFamily: "Anton",
                                         }}
                                     >
+                                        <hr />
                                         <i
                                             className="fa fa-envelope"
                                             aria-hidden="true"
@@ -70,10 +74,11 @@ class Contact extends Component {
                                 <ListItem>
                                     <ListItemContent
                                         style={{
-                                            fontSize: "30px",
+                                            fontSize: "20px",
                                             fontFamily: "Anton",
                                         }}
                                     >
+                                        <hr />
                                         <i
                                             className="fa fa-skype"
                                             aria-hidden="true"

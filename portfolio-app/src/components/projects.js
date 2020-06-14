@@ -1,4 +1,5 @@
 import React, { Component } from "react";
+import { Link } from "react-router-dom";
 import {
     Tabs,
     Tab,
@@ -34,7 +35,9 @@ class Projects extends Component {
                         <Button colored>GitHub</Button>
                     </CardActions>
                     <CardMenu style={{ color: "blue" }}>
-                        <IconButton name="share" />
+                        <Link href="https://github.com/Mikhail1494">
+                            <IconButton name="share" />
+                        </Link>
                     </CardMenu>
                 </Card>
             );
